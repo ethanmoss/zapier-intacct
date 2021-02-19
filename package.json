@@ -1,0 +1,25 @@
+{
+  "name": "sage-intacct",
+  "version": "1.0.1",
+  "description": "This integration seeks to create a vendor to the VENDOR table in Intacct, every time a vendor application is approved in Clustdoc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testTimeout 10000"
+  },
+  "engines": {
+    "node": ">=v12",
+    "npm": ">=5.6.0"
+  },
+  "dependencies": {
+    "xml2js": "^0.4.23",
+    "zapier-platform-core": "9.4.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "should": "^13.2.0"
+  },
+  "private": true,
+  "zapier": {
+    "convertedByCLIVersion": "10.1.2"
+  }
+}
